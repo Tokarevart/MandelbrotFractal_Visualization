@@ -24,3 +24,4 @@ F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWith
 F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal.g.resources
 F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Release\DoMagicWithImage.Properties.Resources.resources
 F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Release\DoMagicWithImage.csproj.GenerateResource.Cache
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Release\DoMagicWithImage.csprojResolveAssemblyReference.cache

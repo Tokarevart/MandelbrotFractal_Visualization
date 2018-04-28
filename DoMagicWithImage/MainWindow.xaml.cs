@@ -28,7 +28,7 @@ namespace DoMagicWithImage
         Random rand = new Random();
         WriteableBitmap wb = new WriteableBitmap(1280, 720, 96d, 96d, PixelFormats.Bgra32, null);
         byte[,] colors = new byte[1280 * 720, 4];
-        int calcIterNum = 500;
+        int calcIterNum = 250;
 
         double scale = 300d;
         Vector offset = new Vector(-180d, 0d);
@@ -149,7 +149,7 @@ namespace DoMagicWithImage
         unsafe void SequentialCPUCppUpdateFractal()
         {
             startMesTime = DateTime.Now.Millisecond + DateTime.Now.Second * 1000;
-            fixed(byte* cols = &(colors[0, 0]))
+            fixed (byte* cols = &(colors[0, 0]))
                 SequentialCPUFractalCalc(cols, wb.PixelWidth, wb.PixelHeight, (float)scale, (float)offset.X, (float)offset.Y, calcIterNum);
 
             WritePixelsInWB(wb);
