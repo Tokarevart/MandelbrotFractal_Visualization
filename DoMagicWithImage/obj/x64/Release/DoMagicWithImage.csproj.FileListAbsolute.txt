@@ -1,0 +1,13 @@
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\MainWindow.g.cs
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\App.g.cs
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\MainWindow.baml
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\DoMagicWithImage.csproj.GenerateResource.Cache
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Release\Mandelbrot Fractal.exe.config
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Release\Mandelbrot Fractal.exe
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Release\Mandelbrot Fractal.pdb
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal_MarkupCompile.cache
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal_MarkupCompile.lref
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal.g.resources
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal.exe
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\Mandelbrot Fractal.pdb
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Release\DoMagicWithImage.Properties.Resources.resources

@@ -1,0 +1,14 @@
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Debug\DoMagicWithImage.exe.config
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Debug\DoMagicWithImage.exe
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\bin\x64\Debug\DoMagicWithImage.pdb
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\MainWindow.g.cs
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\App.g.cs
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage_MarkupCompile.cache
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage_MarkupCompile.lref
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\MainWindow.baml
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.g.resources
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.Properties.Resources.resources
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.csproj.GenerateResource.Cache
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.exe
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.pdb
+F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.csprojResolveAssemblyReference.cache
