@@ -33,7 +33,7 @@ namespace DoMagicWithImage
         double scale = 300d;
         Vector offset = new Vector(-180d, 0d);
 
-        double scaleStride = 150d;
+        double scaleStride = 60d;
         double scaleStrideCoef = 2;
         double offsetStride = 100d;
 
