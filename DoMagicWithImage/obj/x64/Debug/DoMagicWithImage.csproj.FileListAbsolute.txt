@@ -12,3 +12,17 @@ F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\D
 F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.exe
 F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.pdb
 F:\Programming\Программы\C#\DoMagicWithImage\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.csprojResolveAssemblyReference.cache
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\bin\x64\Debug\Mandelbrot Fractal.exe.config
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.csprojResolveAssemblyReference.cache
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\MainWindow.g.cs
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\App.g.cs
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\Mandelbrot Fractal_MarkupCompile.cache
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\Mandelbrot Fractal_MarkupCompile.lref
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\bin\x64\Debug\Mandelbrot Fractal.exe
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\bin\x64\Debug\Mandelbrot Fractal.pdb
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\MainWindow.baml
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\Mandelbrot Fractal.g.resources
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.Properties.Resources.resources
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\DoMagicWithImage.csproj.GenerateResource.Cache
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\Mandelbrot Fractal.exe
+F:\Programming\Программы\C#\MandelbrotFractal_Visualization\DoMagicWithImage\obj\x64\Debug\Mandelbrot Fractal.pdb

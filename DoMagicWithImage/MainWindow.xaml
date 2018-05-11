@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DoMagicWithImage"
         mc:Ignorable="d"
-        Title="Mandelbrot Fractal" Height="750" Width="1288" WindowStartupLocation="CenterScreen" MouseDown="mainWindow_MouseDown" MouseMove="mainWindow_MouseMove" MouseUp="mainWindow_MouseUp" MouseWheel="mainWindow_MouseWheel">
+        Title="Mandelbrot Fractal" Height="750" Width="1288" WindowStartupLocation="CenterScreen" MouseDown="mainWindow_MouseDown" MouseMove="mainWindow_MouseMove" MouseUp="mainWindow_MouseUp" MouseWheel="mainWindow_MouseWheel" SizeChanged="mainWindow_SizeChanged" StateChanged="mainWindow_StateChanged" SnapsToDevicePixels="True" UseLayoutRounding="False">
     <Grid x:Name="mainGrid">
         <Image x:Name="image" Source="Resources/md_5a1d0330c30b2.png" Stretch="None"/>
         <Button x:Name="plusScaleButton" Content="+" HorizontalAlignment="Left" Margin="42,43,0,0" VerticalAlignment="Top" Width="40" Height="40" FontSize="22" Focusable="False" Click="plusScaleButton_Click">
@@ -84,7 +84,7 @@
                 </RadialGradientBrush>
             </Button.Background>
         </Button>
-        <Label x:Name="label" Content="Offset:" HorizontalAlignment="Left" Margin="1190,0,0,0" VerticalAlignment="Top" Width="90" FontSize="18" Foreground="White">
+        <Label x:Name="label" Content="Offset:" HorizontalAlignment="Right" Margin="0" VerticalAlignment="Top" Width="90" FontSize="18" Foreground="White">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>
@@ -92,7 +92,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Label x:Name="offsetXLabel" Content="9999" HorizontalAlignment="Left" Margin="1190,26,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Width="90">
+        <Label x:Name="offsetXLabel" Content="9999" HorizontalAlignment="Right" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Width="90">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>
@@ -100,7 +100,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Label x:Name="offsetYLabel" Content="9999" HorizontalAlignment="Left" Margin="1190,54,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" BorderThickness="0" Width="90">
+        <Label x:Name="offsetYLabel" Content="9999" HorizontalAlignment="Right" Margin="0,54,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" BorderThickness="0" Width="90">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>
@@ -108,7 +108,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Label x:Name="label_Copy" Content="dt (ms):" HorizontalAlignment="Left" Margin="1190,97,0,0" VerticalAlignment="Top" Width="90" FontSize="18" Foreground="White">
+        <Label x:Name="label_Copy" Content="dt (ms):" HorizontalAlignment="Right" Margin="0,97,0,0" VerticalAlignment="Top" Width="90" FontSize="18" Foreground="White">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>
@@ -116,7 +116,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Label x:Name="lastdtLabel" Content="9999" HorizontalAlignment="Left" Margin="1190,125,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Width="90">
+        <Label x:Name="lastdtLabel" Content="9999" HorizontalAlignment="Right" Margin="0,125,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Width="90">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>
@@ -166,7 +166,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Label x:Name="label2" Content="You can use mouse L and R buttons and mouse wheel for fractal navigation." HorizontalAlignment="Left" Margin="10,678,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" BorderThickness="0">
+        <Label x:Name="label2" Content="You can use mouse L and R buttons and mouse wheel for fractal navigation." HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Foreground="White" FontSize="18" BorderThickness="0">
             <Label.Effect>
                 <DropShadowEffect Direction="0" ShadowDepth="0"/>
             </Label.Effect>

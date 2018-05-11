@@ -292,5 +292,56 @@ namespace DoMagicWithImage
             UpdateFractal();
             UpdateOffsetLabels();
         }
+        private void MainWindowSizeChanged()
+        {
+            colors = new byte[((int)mainWindow.Width - 7) * ((int)mainWindow.Height - 29), 4];
+            wb = new WriteableBitmap(
+                (int)mainWindow.Width - 7,
+                (int)mainWindow.Height - 29,
+                96d,
+                96d,
+                PixelFormats.Bgra32,
+                null);
+
+            image.Source = wb;
+            UpdateFractal();
+        }
+        private void mainWindow_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            MainWindowSizeChanged();
+        }
+
+        //
+        // It doesn't work.
+        private void mainWindow_StateChanged(object sender, EventArgs e)
+        {
+            if (mainWindow.WindowState == WindowState.Maximized)
+            {
+                mainWindow.WindowState = WindowState.Normal;
+
+                //colors = new byte[
+                //    //((int)(SystemParameters.PrimaryScreenWidth * SystemParameters.CaretWidth) - 7) * 
+                //    //((int)(SystemParameters.PrimaryScreenHeight * SystemParameters.CaretWidth) - 29), 
+                //    //((int)SystemParameters.WorkArea.Width - 7) *
+                //    //((int)SystemParameters.WorkArea.Height - 29), 
+                //    (1920 - 7) *
+                //    (1080 - 29),
+                //    4];
+                //wb = new WriteableBitmap(
+                //    1920 - 7,
+                //    1080 - 29,
+                //    96d,
+                //    96d,
+                //    PixelFormats.Bgra32,
+                //    null);
+
+                //image.Source = wb;
+                //UpdateFractal();
+            }
+            //else if (mainWindow.WindowState == WindowState.Normal)
+            //{
+            //    MainWindowSizeChanged();
+            //}
+        }
     }
 }
