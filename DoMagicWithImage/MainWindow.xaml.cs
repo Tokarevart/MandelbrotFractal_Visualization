@@ -103,7 +103,7 @@ namespace DoMagicWithImage
         {
             startMesTime = DateTime.Now.Millisecond + DateTime.Now.Second * 1000;
 
-            for (int i = 0; i < wb.PixelHeight * wb.PixelWidth; i++)
+            for (int i = 0, max = wb.PixelHeight * wb.PixelWidth; i < max; i++)
             {
                 colors[i, (int)Bgra32.A] = 255;
             }
@@ -112,6 +112,7 @@ namespace DoMagicWithImage
             double mathY = 0d;
 
             for (int y = 0; y < wb.PixelHeight; y++)
+            {
                 for (int x = 0; x < wb.PixelWidth; x++)
                 {
                     mathX = (x - wb.PixelWidth / 2 + offset.X) / scale;
@@ -137,6 +138,7 @@ namespace DoMagicWithImage
                     else
                         PaintTheNotBelongingPoint(x, y, iter);
                 }
+            }
 
             WritePixelsInWB(wb);
 
@@ -310,38 +312,50 @@ namespace DoMagicWithImage
         {
             MainWindowSizeChanged();
         }
+        
 
-        //
-        // It doesn't work.
-        private void mainWindow_StateChanged(object sender, EventArgs e)
+        private bool _isFullscreen = false;
+        private void mainWindow_KeyDown(object sender, KeyEventArgs e)
         {
-            if (mainWindow.WindowState == WindowState.Maximized)
+            if (Keyboard.IsKeyDown(Key.F11))
             {
-                mainWindow.WindowState = WindowState.Normal;
+                if (!_isFullscreen)
+                {
+                    Topmost = true;
+                    WindowStyle = WindowStyle.None;
+                    WindowState = WindowState.Maximized;
+                    ResizeMode = ResizeMode.NoResize;
 
-                //colors = new byte[
-                //    //((int)(SystemParameters.PrimaryScreenWidth * SystemParameters.CaretWidth) - 7) * 
-                //    //((int)(SystemParameters.PrimaryScreenHeight * SystemParameters.CaretWidth) - 29), 
-                //    //((int)SystemParameters.WorkArea.Width - 7) *
-                //    //((int)SystemParameters.WorkArea.Height - 29), 
-                //    (1920 - 7) *
-                //    (1080 - 29),
-                //    4];
-                //wb = new WriteableBitmap(
-                //    1920 - 7,
-                //    1080 - 29,
-                //    96d,
-                //    96d,
-                //    PixelFormats.Bgra32,
-                //    null);
+                    _isFullscreen = true;
 
-                //image.Source = wb;
-                //UpdateFractal();
+                    colors = new byte[
+                        //((int)(SystemParameters.PrimaryScreenWidth * SystemParameters.CaretWidth)) * 
+                        //((int)(SystemParameters.PrimaryScreenHeight * SystemParameters.CaretWidth)), 
+                        //((int)SystemParameters.WorkArea.Width) *
+                        //((int)SystemParameters.WorkArea.Height), 
+                        (1920) *
+                        (1080),
+                        4];
+                    wb = new WriteableBitmap(
+                        1920,
+                        1080,
+                        //(int)SystemParameters.WorkArea.Width,
+                        //(int)SystemParameters.WorkArea.Height,
+                        96d,
+                        96d,
+                        PixelFormats.Bgra32,
+                        null);
+                }
+                else
+                {
+                    Topmost = false;
+                    WindowStyle = WindowStyle.SingleBorderWindow;
+                    WindowState = WindowState.Normal;
+                    ResizeMode = ResizeMode.CanResize;
+
+                    _isFullscreen = false;
+                }
             }
-            //else if (mainWindow.WindowState == WindowState.Normal)
-            //{
-            //    MainWindowSizeChanged();
-            //}
         }
     }
 }

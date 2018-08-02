@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DoMagicWithImage"
         mc:Ignorable="d"
-        Title="Mandelbrot Fractal" Height="750" Width="1288" WindowStartupLocation="CenterScreen" MouseDown="mainWindow_MouseDown" MouseMove="mainWindow_MouseMove" MouseUp="mainWindow_MouseUp" MouseWheel="mainWindow_MouseWheel" SizeChanged="mainWindow_SizeChanged" StateChanged="mainWindow_StateChanged" SnapsToDevicePixels="True" UseLayoutRounding="False">
+        Title="Mandelbrot Fractal" Height="750" Width="1288" WindowStartupLocation="CenterScreen" MouseDown="mainWindow_MouseDown" MouseMove="mainWindow_MouseMove" MouseUp="mainWindow_MouseUp" MouseWheel="mainWindow_MouseWheel" SizeChanged="mainWindow_SizeChanged" SnapsToDevicePixels="True" UseLayoutRounding="False" KeyDown="mainWindow_KeyDown">
     <Grid x:Name="mainGrid">
-        <Image x:Name="image" Source="Resources/md_5a1d0330c30b2.png" Stretch="None"/>
+        <Image x:Name="image" Source="Resources/md_5a1d0330c30b2.png" Stretch="None" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
         <Button x:Name="plusScaleButton" Content="+" HorizontalAlignment="Left" Margin="42,43,0,0" VerticalAlignment="Top" Width="40" Height="40" FontSize="22" Focusable="False" Click="plusScaleButton_Click">
             <Button.Background>
                 <RadialGradientBrush>
